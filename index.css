@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    background: #D2D2D9;
+}
+header{
+    background: #D2D2D9;
+
+}
+.list-iteam{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.list-iteam:hover{
+    color: #192040;
+    background: #FF2E51;
+    border-radius: 50px;
+    padding: 8px 40px;
+}
+.ux{
+    display: flex;
+    justify-content: flex-start;
+}
+.tel {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: 60px;
+}
+.mega{
+    background: url(./img/Frame\ 48.png);
+    margin-top: 20px;
+   
+}
+.offor{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: 120px;
+}
+.raz{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    margin-top: 20px;
+}
+.btn1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #FF2E51;
+    border-radius: 50px;
+    padding: 20px 60px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 134px;
+}
+.uslugiya{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 120px;
+}
+.ispol{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.dizayn{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #192040;
+}
+.noo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+}
+.razboy{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    margin-top: 20px;
+}
+.imge{
+    margin-left: 40px;  
+    margin-top: 20px;
+}
+.sadyom{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #192040;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.ispul{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #828299;
+    margin-left: 30px;
+}
+.card1{
+    margin-top: 60px;
+    background: radial-gradient(49.88% 49.88% at 22.29% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(80.86% 83.87% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+#posh{
+padding-bottom: 40px;
+}
+#nashi{
+    padding-bottom: 22px;
+}
+#ot{
+    padding-bottom: 20px;
+}
+.mir{
+    padding-top: 100px;
+}
+.mag{
+    margin-top: 100px;
+}
+.kak{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: 120px;
+}
+.baza{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    margin-top: 20px;
+}
+.mini{
+    background: radial-gradient(60.16% 60.16% at 0% 100%, rgba(207, 213, 229, 0.4) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(89.84% 89.84% at 113.28% 62.5%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(89.84% 89.84% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 26px ;
+    width: 80px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #192040;
+}
+.maskov{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: 40px;
+}
+.texno{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    padding-bottom: 60px;
+}
+.max{
+    margin-top: 50px;
+}
+.svoy{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #192040;
+    padding-left: 80px;
+}
+.nash{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding-left: 80px;
+    color: #828299;
+}
+.yest{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    margin-left: 40px;
+}
+.btn2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #FF2E51;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: none;
+    margin-left: 40px;
+}
+.btn3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    padding: 15px 30px;
+    background: #FFFEFC;
+    border: 2px solid #EDEDF2;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.zagruzka{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-left: 40px;
+    margin-top: 20px;   
+}
+.btn34{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    padding: 15px 30px;
+    background: #FFFEFC;
+    border: 2px solid #EDEDF2;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 360px;
+height: 62px;
+}
+.btn5{
+    background: #FF2E51;
+    border-radius: 50px;
+    padding: 20px 118px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.png{
+    margin-top: -90px;
+}
+.fine{
+    background: radial-gradient(99.36% 102.39% at 100% 76.24%, rgba(211, 229, 207, 0.08) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(68.66% 43.09% at 0% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+    padding-top: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+.zayavka{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.menej{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+input{
+    background: #FFFEFC;
+    border: 2px solid #EDEDF2;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    padding: 20px 166px 20px 25px ;
+   margin-left: 40px;
+}
+.mine{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.key{
+    display: flex;
+    justify-content: flex-start;
+}
+.mik{
+    margin-right: 20px;
+}
+.apple{
+    background: radial-gradient(25.54% 71.56% at 71.36% 78.16%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(35.81% 100% at 0% 100%, rgba(207, 213, 229, 0.3) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(60.59% 64.89% at 0% 0%, rgba(255, 181, 61, 0.1) 0%, rgba(255, 181, 61, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+.let{
+    position: relative;
+}
+.key1{
+    position: absolute;
+    top: -457px;
+    left: 717px;
+}
+.section6{
+    padding-top: 70px;   
+}
+.btn8{
+    background: #FF2E51;
+    border-radius: 50px;
+    padding: 20px 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+.najmi{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #828299;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.ley{
+    display: flex;
+    justify-content: flex-start;
+}
+.vapros{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+    margin-top: 120px;
+}
+.kakim{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    margin-top: 21px;
+}
+.bogat{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #192040;
+    margin-top: 21px;
+}
+.main{
+    background: #FFFEFC;
+    border: 2px solid #EDEDF2;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.myself{
+    background: #FFFEFC;
+    border: 2px solid #EDEDF2;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.kotolog{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.oboi{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    margin-bottom: 10px;
+}
+#oboi1{
+    margin-top: 173px;
+}
+.studio{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 35px;
+}
+.pozvoni{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 130px;
+}
+.tel1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: -10px;
+}
+.nam{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 30px;
+}
+.fa-brands{
+    margin-right: 15px;
+}
+.fa-brands :hover{
+    margin-right: 15px;
+    border: 2px solid red;
+}
