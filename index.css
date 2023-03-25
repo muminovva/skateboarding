@@ -536,14 +536,14 @@ input:hover{
     font-size: 12px;
     line-height: 140%;
     color: #828299;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .pozvoni:hover{
     font-weight: 400;
     font-size: 15px;
     line-height: 140%;
     color: #828299;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .tel1{
     font-weight: 600;
@@ -566,13 +566,14 @@ input:hover{
 .fa-brands:hover{
     color: #1a8ac3;
 }
+#kimmm{
+    margin-bottom: 20px;
+}
 @media (max-width:575px) {
     .navbar{
         display: block;
     }
-    .logo{
-        transform: scale(0.3);
-    }
+   
     .btn1 {
         font-weight: 600;
         font-size: 14px;
@@ -929,5 +930,12 @@ input:hover{
 }
 .email{
     margin-left: 120px;
+}
+.fine {
+    background: radial-gradient(99.36% 102.39% at 100% 76.24%, rgba(211, 229, 207, 0.08) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(68.66% 43.09% at 0% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+    padding-top: 29px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    width: 80%;
 }
 }
