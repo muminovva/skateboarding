@@ -23,9 +23,8 @@ header{
 }
 .list-iteam:hover{
     color: #192040;
-    background: #FF2E51;
-    border-radius: 50px;
-    padding: 8px 40px;
+    font-size: 18px;
+    padding: 8px ;
 }
 .ux{
     display: flex;
@@ -67,6 +66,18 @@ header{
     line-height: 140%;
     color: #FFFFFF;
     background: #FF2E51;
+    border-radius: 50px;
+    padding: 20px 60px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 134px;
+}
+.btn1:hover{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #2ea1ff;
     border-radius: 50px;
     padding: 20px 60px;
     border: none;
@@ -138,6 +149,13 @@ header{
     border: 2px solid #FFFFFF;
     border-radius: 30px;
 }
+.card1:hover{
+    margin-top: 60px;
+  background: #bcd4e8;
+    border: 2px solid #1a8ac3;
+    border-radius: 30px;
+   
+}
 #posh{
 padding-bottom: 40px;
 }
@@ -170,6 +188,18 @@ padding-bottom: 40px;
 .mini{
     background: radial-gradient(60.16% 60.16% at 0% 100%, rgba(207, 213, 229, 0.4) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(89.84% 89.84% at 113.28% 62.5%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(89.84% 89.84% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
     border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 26px ;
+    width: 80px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #192040;
+}
+.mini:hover{
+    background: radial-gradient(60.16% 60.16% at 0% 100%, rgba(207, 213, 229, 0.4) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(89.84% 89.84% at 113.28% 62.5%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(89.84% 89.84% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+    border: 2px solid #66a3e6;
     border-radius: 30px;
     padding: 26px ;
     width: 80px;
@@ -274,6 +304,18 @@ height: 62px;
     margin-top: 30px;
     margin-left: 40px;
 }
+.btn5:hover{
+    background: #4c49f9;
+    border-radius: 50px;
+    padding: 20px 118px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
 .png{
     margin-top: -90px;
 }
@@ -302,6 +344,17 @@ height: 62px;
 input{
     background: #FFFEFC;
     border: 2px solid #EDEDF2;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    padding: 20px 166px 20px 25px ;
+   margin-left: 40px;
+}
+input:hover{
+    background: #FFFEFC;
+    border: 3px solid #6767ea;
     border-radius: 10px;
     font-weight: 600;
     font-size: 16px;
@@ -355,6 +408,20 @@ input{
     margin-left: 40px;
 
 }
+.btn8:hover{
+    background: #4a88e4;
+    border-radius: 50px;
+    padding: 20px 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
 .najmi{
     font-weight: 400;
     font-size: 14px;
@@ -381,6 +448,7 @@ input{
     color: #192040;
     margin-top: 21px;
 }
+
 .bogat{
     font-weight: 400;
     font-size: 16px;
@@ -395,10 +463,24 @@ input{
     padding-left: 20px;
     margin-top: 50px;
 }
+.main:hover{
+    background: #FFFEFC;
+    border: 2px solid #1616b0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
 .myself{
     background: #FFFEFC;
     border: 2px solid #EDEDF2;
     border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.myself:hover{
+    background: #FFFEFC;
+    border: 2px solid #2020b1;
+    border-radius: 35px;
     padding-left: 20px;
     margin-top: 20px;
 }
@@ -410,9 +492,24 @@ input{
     margin-bottom: 30px;
     margin-top: 120px;
 }
+.kotolog:hover{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
 .oboi{
     font-weight: 400;
     font-size: 16px;
+    line-height: 140%;
+    color: #828299;
+    margin-bottom: 10px;
+}
+.oboi:hover{
+    font-weight: 400;
+    font-size: 18px;
     line-height: 140%;
     color: #828299;
     margin-bottom: 10px;
@@ -427,9 +524,23 @@ input{
     color: #192040;
     margin-bottom: 35px;
 }
+.studio:hover{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 35px;
+}
 .pozvoni{
     font-weight: 400;
     font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 130px;
+}
+.pozvoni:hover{
+    font-weight: 400;
+    font-size: 15px;
     line-height: 140%;
     color: #828299;
     margin-top: 130px;
@@ -441,6 +552,7 @@ input{
     color: #192040;
     margin-top: -10px;
 }
+
 .nam{
     font-weight: 400;
     font-size: 12px;
@@ -451,7 +563,371 @@ input{
 .fa-brands{
     margin-right: 15px;
 }
-.fa-brands :hover{
-    margin-right: 15px;
-    border: 2px solid red;
+.fa-brands:hover{
+    color: #1a8ac3;
+}
+@media (max-width:575px) {
+    .navbar{
+        display: block;
+    }
+    .logo{
+        transform: scale(0.3);
+    }
+    .btn1 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #FFFFFF;
+        background: #FF2E51;
+        border-radius: 50px;
+        padding: 11px 17px;
+        border: none;
+        margin-top: 25px;
+        margin-bottom: 48px;
+    }
+    .offor {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: 18px;
+        padding-top: 20px;
+      
+    }
+    .raz {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #192040;
+        margin-top: 20px;
+       
+    }
+    .uslugiya {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        color: #828299;
+        margin-top: 33px;
+       
+    }
+    .offor {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: 0px;
+    }
+    .ispol {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #828299;
+        margin-top: 20px;
+        margin-bottom: 150px;
+    }
+    .img12{
+        transform: scale(0.4);
+        margin-left: -210px;
+        margin-top: -200px;
+    }
+    .dizayn {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: -110px;
+    }
+    .noo {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #192040;
+    }
+    .razboy {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #192040;
+        margin-top: 20px;
+    }
+    .dizayn {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: -73px;
+    }
+    .img53{
+        transform: scale(0.4);
+        margin-left: -203px;
+        margin-top: -100px;
+    }
+    .img30{
+        transform: scale(0.4);
+        margin-left: -203px;
+        margin-top: -280px;
+    }
+    .kak {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: 14px;
+    }
+    .maskov {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: 13px;
+    }
+    .texno {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #828299;
+        padding-bottom: 1px;
+    }
+    .svoy {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 130%;
+        color: #192040;
+        padding-left: 9px;
+    }
+    .nash {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 140%;
+        padding-left: 10px;
+        color: #828299;
+    }
+    .png{
+        display: none;
+    }
+    .yest {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140%;
+        color: #192040;
+        margin-left: 8px;
+    }
+    .btn2 {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 140%;
+        color: #FFFFFF;
+        background: #FF2E51;
+        border-radius: 50px;
+        padding: 6px 24px;
+        border: none;
+        margin-left: 60px;
+    }
+    .btn3 {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 140%;
+        color: #828299;
+        padding: 8px 31px;
+        background: #FFFEFC;
+        border: 2px solid #EDEDF2;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 39px;
+        margin-bottom: 10px;
+    }
+    .zagruzka {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 140%;
+        color: #828299;
+        margin-left: 58px;
+        margin-top: 20px;
+    }
+    .btn34 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #828299;
+        padding: 4px 54px;
+        background: #FFFEFC;
+        border: 2px solid #EDEDF2;
+        border-radius: 50px;
+        margin-top: -4px;
+        margin-left: 40px;
+        /* width: 360px; */
+        height: 62px;
+    }
+    .btn5 {
+       display: none;
+    }
+    .menej {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 140%;
+        color: #828299;
+        margin-top: 14px;
+        margin-left: 40px;
+    }
+    .zayavka {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 130%;
+        color: #192040;
+        margin-top: 21px;
+        margin-left: 40px;
+        display: none;
+        margin-bottom: 10px;
+    }
+    .btn34{
+        display: none;
+    }
+    .zagruzka{
+        display: none;
+    }
+    .key1{
+        display: none;
+    }
+    input {
+        background: #FFFEFC;
+        border: 2px solid #EDEDF2;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 140%;
+        color: #828299;
+        padding: 4px 53px 7px 25px;
+        margin-left: 40px;
+    }
+    .text{
+        display: none;
+    }
+    .mine{
+        display: none;
+    }
+    .btn8 {
+        background: #FF2E51;
+        border-radius: 50px;
+        padding: 13px 48px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .btn8:hover {
+        background: #2e5bff;
+        border-radius: 50px;
+        padding: 13px 48px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .najmi{
+        display: none;
+    }
+    .vapros {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 130%;
+        color: #000000;
+        margin-top: 50px;
+    }
+    .kakim {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 140%;
+        color: #192040;
+        margin-top: 7px;
+    }
+    #kim{
+        margin-bottom: 5px;
+    }
+    .main {
+        background: #FFFEFC;
+        border: 2px solid #EDEDF2;
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-top: 19px;
+    }
+   .myself{
+    margin-bottom: 5px;
+   }
+   .kotolog {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 17px;
+    margin-top: 31px;
+}
+.kotolog:hover {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 17px;
+    margin-top: 31px;
+}
+.oboi {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #828299;
+    margin-bottom: 8px;
+}
+.studio {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 13px;
+}
+.studio {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #192040;
+    margin-bottom: 13px;
+}   
+.pozvoni {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 24px;
+}
+.tel1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #192040;
+    margin-top: -10px;
+}
+.nam {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #828299;
+    margin-top: 13px;
+}
+.email{
+    margin-left: 120px;
+}
 }
